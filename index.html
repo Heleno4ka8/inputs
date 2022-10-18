@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Forms</title>
+  <link rel="stylesheet" href="style-css/stylesheet.css">
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <h1>Форми</h2>
+      <div class="forms-top">
+        <div class="forma1">
+          <label>
+            Ваше ім'я <input class="input" type="text" placeholder="Ім'я">
+          </label>
+          <p>
+            <label>
+              Ваше прізвище <input class="input" type="text" placeholder="Прізвище">
+          </p>
+          <p>
+            <label>
+              <input class="input" class="input" type="email" placeholder="E-mail адреса">
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="checkbox" onclick="this.nextElementSibling.removeAttribute('disabled')">
+              <select disabled>
+                <option>Виберіть місто</option>
+                <option>Хмельницький</option>
+                <option>Львів</option>
+              </select>
+            </label>
+            <p>
+              <p>Виберіть стать</p>
+              <label>
+                <input type="radio" name="Олена" checked>жіноча
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="radio" name="Олена">чоловіча
+              </label>
+            </p>
+            <p>
+              <label>
+                <textarea class="prompt input">E-mail</textarea>
+              </label>
+            </p>
+            <label class="checkboxes">
+              <input type="checkbox">Підписка на новини
+            </label>
+          </p>
+          <p class="ok">
+            <label>
+              <button>Ok</button>
+            </label>
+          </p>
+          <p class="prompt">Зв'язок з нами</p>
+          <p>0-800-95-11-55</p>
+        </div>
+        <div class="forma2">
+          <h3>Анкета</h3>
+          <p>
+            <label>
+              <input class="input" type="text" placeholder="ім'я">
+            </label>
+          </p>
+          <p>
+            <label>
+              <input class="input arrow" type="number" placeholder="вкажіть ваш вік" >
+            </label>
+          </p>
+          <p>
+            <label>
+              <input class="input" type="email" placeholder="e-mail address">
+            </label>
+          </p>
+          <p>
+            <label>
+              <textarea class="prompt input">Напишіть про себе</textarea>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="tel" placeholder="вкажіть телефон" maxlength="14">
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="date">
+            </label>
+          </p>
+          <label class="prompt">
+            <input type="color">
+            <input type="range" oninput="this.nextElementSibling.value=this.value" min="1" max="100" step="0"
+              value="1">Улюблений колір
+            <output></output>
+          </label>
+          </p>
+          </p>
+          <label class="checkboxes">
+            <input type="checkbox">Отримувати листи
+          </label>
+          </p>
+          <p class="ok">
+            <label>
+              <button>надіслати</button>
+            </label>
+          </p>
+          <p class="prompt">Підтримка:</p>
+          <p>support@gmail.com</p>
+          <p>0-800-50-20-50</p>
+        </div>
+      </div>
+      <hr>
+  </div>
+  <h2>Форми:</h2>
+  <div class="forms-top">
+    <div class="forma3">
+      <p class="font">Your account</p>
+      <label>
+        <input class="input" type="text" placeholder="login">
+      </label>
+      <p>
+        <label>
+          <input class="input" type="text" maxlengt="8" placeholder="Pasword">
+      </p>
+      <p>
+        <label>
+          <input class="input" type="email" placeholder="E-mail address">
+        </label>
+      </p>
+      <p>
+        <label>
+          <input class="input" type="tel" maxlength="14" placeholder="your phone">
+        </label>
+      </p>
+      <p>
+        <label>
+          <select class="input">
+            <option class="option" disabled selected>your country</option>
+            <option>Armenia</option>
+            <option>America</option>
+            <option>Ausria</option>
+            <option>Afrika</option>
+            <option>Australia</option>
+            <option>Argentina</option>
+            <option>Brasilia</option>
+            <option>Britan</option>
+          </select>
+        </label>
+        <label>
+          <select class="input">
+            <option disabled selected>your city</option>
+            <option>Erevan</option>
+            <option>Vienna</option>
+            <option>Sydney</option>
+            <option>Addis-Abeba</option>
+            <option>Buenos Aires</option>
+            <option>London</option>
+            <option>Washington</option>
+            <option>Rio de Janeiro</option>
+          </select>
+        </label>
+        </p>
+        <p>
+          <label class="checkboxes">
+            <input type="nummber" placeholder="your age" size="7" maxlength="3">
+          </label>
+        </p>
+        <p>
+          <label class="prompt">
+            birth date<input type="date">
+          </label>
+        </p>
+        <label class="checkboxes">
+          <input type="checkbox">Consent to data processing
+        </label>
+      </p>
+      <p class="ok">
+        <label>
+          <button>Send</button>
+        </label>
+      </p>
+      <p class="prompt">call center</p>
+      <p>0-800-95-11-55</p>
+    </div>
+    <div class="forma4">
+      Створити акаунт
+      <p>
+        <label>
+          <input class="input" type="text" placeholder="ім'я">
+        </label>
+      </p>
+      <p>
+        <label>
+          <input class="input" type="email" placeholder="e-mail">
+        </label>
+      </p>
+      <p>
+        <label>
+          <textarea class="prompt input"> короткий опис про себе</textarea>
+        </label>
+      </p>
+
+      <p>
+        <label>
+          <input class="input" type="number" placeholder="вкажіть ваш вік">
+        </label>
+      </p>
+      <p>
+        <label>
+          <input class="input" type="number" placeholder="вкажіть телефон">
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="date">
+        </label>
+      </p>
+      <label class="checkboxes">
+        <input type="checkbox">Отримувати новини
+      </label>
+      </p>
+      <p class="ok">
+        <label>
+          <button>відправити</button>
+        </label>
+      </p>
+      <p class="prompt">гаряча лінія:</p>
+      <p>support@gmail.com</p>
+      <p>0-800-50-20-50</p>
+    </div>
+  </div>
+  <hr>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish-ExtraLight.woff2') format('woff2'),
+    url('../fonts/Mulish-ExtraLight.woff') format('woff'),
+    url('../fonts/Mulish-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+    url('../fonts/Inter-Regular.woff') format('woff'),
+    url('../fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baloo 2';
+  src: url('../fonts/Baloo2-Regular.woff2') format('woff2'),
+    url('../fonts/Baloo2-Regular.woff') format('woff'),
+    url('../fonts/Baloo2-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Inter';
+  font-style: bold;
+}
+h2,h3 {
+  text-align: center;
+}
+
+.body {
+  background-color: #fff;
+  font-family: 'Baloo 2';
+}
+
+.wrapper {
+  background-color: #f0f0ff;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.input {
+  width: 100%;
+}
+.arrow {
+  -webkit-appearance: none;
+}
+
+.forms-top {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #C0C0C0;
+}
+
+.forma1,
+.forma2 {
+  border: 1px solid #999;
+  box-shadow: inset 0 0 8px 3px rgba(111,111,111,0.3);
+  border-radius: 4px;
+  width: 210px;
+  padding: 20px;
+}
+.prompt {
+  color: #C0C0C0;
+}
+.forma3,
+.forma4 {
+  width: 210px;
+  padding: 20px;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+.checkboxes {
+  font-style: 5px;
+  color: #555;
+}
+
+.ok {
+  text-align: center;
+}
+.option {
+  display: none;
+  color: #C0C0C0;
+
+}
+.font {
+  font-family: 'Mulish';
+  font-style: bold;
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Mulish-ExtraLight.woff') format('woff'),
+        url('../fonts/Mulish-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff'),
+        url('../fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('../fonts/Baloo2-Regular.woff2') format('woff2'),
+        url('../fonts/Baloo2-Regular.woff') format('woff'),
+        url('../fonts/Baloo2-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
