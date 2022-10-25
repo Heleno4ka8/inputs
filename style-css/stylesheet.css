@@ -36,6 +36,14 @@ h1 {
 h2,h3 {
   text-align: center;
 }
+input, 
+textarea,
+select {
+  box-sizing: border-box;
+}
+img:before {
+  content:"image/Elipse 3.png";
+}
 
 .body {
   background-color: #fff;
@@ -53,13 +61,11 @@ h2,h3 {
 .arrow {
   -webkit-appearance: none;
 }
-
 .forms-top {
   display: flex;
   justify-content: space-evenly;
   border: 1px solid #C0C0C0;
 }
-
 .forma1,
 .forma2 {
   border: 1px solid #999;
@@ -70,6 +76,7 @@ h2,h3 {
 }
 .prompt {
   color: #C0C0C0;
+  font-size: 12px;
 }
 .forma3,
 .forma4 {
@@ -78,18 +85,26 @@ h2,h3 {
   border: 1px solid #999;
   border-radius: 3px;
 }
+.shadow {
+  border-radius: 3px;
+}
 .checkboxes {
   font-style: 5px;
+  font-size: 12px;
   color: #555;
 }
-
+.bd {
+  border-radius: 3px;
+}
 .ok {
   text-align: center;
 }
 .option {
   display: none;
   color: #C0C0C0;
-
+}
+.small {
+  font-size: 10px;
 }
 .font {
   font-family: 'Mulish';
